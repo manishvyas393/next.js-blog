@@ -1,0 +1,49 @@
+.h1 {
+      text-align: center;
+      margin: 30px;
+      color: rgb(44, 43, 43);
+      font-size: 40px;
+      margin: auto;
+      margin-bottom: 50px;
+      padding: 15px;
+      width: 20%;
+      border-bottom: 2px solid rgb(68, 68, 70);
+}
+
+.post {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      margin: auto;
+      box-shadow: -21px -15px 37px 8px rgba(115, 115, 115, 0.75);
+      -webkit-box-shadow: -21px -15px 37px 8px rgba(115, 115, 115, 0.75);
+      -moz-box-shadow: -21px -15px 37px 8px rgba(115, 115, 115, 0.75);
+      padding: 5px 15px;
+      height: 80%;
+      border-radius: 15px;
+      margin-bottom: 50px;
+}
+
+.post h3 {
+      color: rgb(0, 162, 255);
+      text-transform: capitalize;
+      font-size: 35px;
+      text-align: center;
+
+}
+
+.post p {
+      font-size: 28px;
+      font-weight: 300;
+}
+
+@media screen and (max-width:600px) {
+      .post{
+            width: 95%;
+      }
+      .h1{
+            width: 80%;
+      }
+}
