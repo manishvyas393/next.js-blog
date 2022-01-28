@@ -13,7 +13,7 @@ body {
 ul {
       list-style-type: none;
       margin: 0;
-      padding: 0;
+      padding: 5px;
       overflow: hidden;
       background-color: indigo;
 }
@@ -26,7 +26,7 @@ li a {
       display: block;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 16px 18px;
       text-decoration: none;
 }
 
@@ -35,9 +35,13 @@ li a:hover:not(.active) {
 }
 
 @media screen and (max-width:600px) {
-      img>{
-            width: 95%;
-            height: 100vh;
+      li>{
+           float:inline-end;
+      }
+      ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
       }
 
      

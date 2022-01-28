@@ -1,7 +1,15 @@
 import Image from "next/image";
 import banner from "../public/images/banner.jpg"
+import styles from "./img.module.css"
 const Hero = () => {
-  return <Image src={banner} width={10000} height={3000} />
+
+  return (
+    <div>
+      < Image className={styles.Img} src={banner} height={42000} width={100000}/>
+    </div>
+   
+  )
+
 };
 
 export default Hero;
